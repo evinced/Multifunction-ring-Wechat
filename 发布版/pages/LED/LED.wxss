@@ -1,0 +1,53 @@
+#a{
+  top: 2%;
+  left: 23%;
+  font-size: xx-large;
+  font-weight: 600;
+  position: fixed;
+  font-family: Arial 
+
+
+}
+#b{
+  top: 13%;
+  font-size: x-large;
+  font-weight: 600;
+     position: fixed;
+}
+#c{
+  top: 38%;
+  left:11%;
+  color:#330000;
+  font-size: large;
+  font-weight: 600;
+     position: fixed;
+}
+
+#d{
+  top: 45%;
+  font-size: x-large;
+  font-weight: 600;
+    position: fixed;
+}
+#e{
+  top:60%;
+
+  font-weight: 600;
+  position: fixed;
+}
+
+
+.logo{
+    top: 0rpx;
+   margin-left: -25%;
+   width: 150%;
+   height: 260%;
+   float: left;
+   position: absolute;
+   opacity: 1
+}
+::-webkit-scrollbar{
+  width: 0rpx;
+  height: 0rpx;
+  color: transparent;
+}

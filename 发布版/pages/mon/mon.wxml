@@ -1,0 +1,17 @@
+
+
+
+  <image class="logo" src="https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=e98f305cef1190ef01ae9ad9fe2bb12e/6a63f6246b600c33ebfe3e79124c510fd8f9a1f8.jpg" mode="scaleToFill" >
+
+  </image>
+<button class="btn1" bindtap="getDataFromOneNet"  style="color:#000033;font-weight:600" plain="true" >
+基于手环终端的温度数据</button>
+<button class="btn2" bindtap="getDataFromOneNet1"  style="color:#000000;font-weight:600" >
+10</button>
+<button class="btn3" bindtap="getDataFromOneNet2"  style="color:#000000;font-weight:600" >
+20</button>
+<button class="btn4" bindtap="getDataFromOneNet3"  style="color:#000000;font-weight:600"  >
+30</button>
+<button class="btn5" bindtap="getDataFromOneNet4"  style="color:#000000;font-weight:600"  >
+40</button>
+ 

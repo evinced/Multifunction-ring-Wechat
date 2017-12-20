@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/page/page",
+    "pages/mon/mon",
+    "pages/PM/PM",
+    "pages/LED/LED",
+    "pages/wifi_station/tianqi/tianqi"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fa8",
+    "navigationBarTitleText": "多功能手环",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":"true"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#00CCCC",
+    "borderStyle": "black",
+    "backgroundColor": "#CCC33",
+  
+    
+    "list": [
+          {
+            "selectedIconPath": "images/登录2.png",
+            "iconPath": "images/登录1.png",
+            "pagePath": "pages/index/index",
+            "text": "登录"
+          },
+      {
+        "selectedIconPath": "images/主页2.png",
+        "iconPath": "images/主页1.png",
+        "pagePath": "pages/page/page",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/LED2.png",
+        "iconPath": "images/LED1.png",
+        "pagePath": "pages/LED/LED",
+        "text": "LED灯"
+      },
+      {
+        "selectedIconPath": "images/温度2.png",
+        "iconPath": "images/温度1.png",
+        "pagePath": "pages/PM/PM",
+        "text": "温度"
+      },
+      {
+        "selectedIconPath": "images/监测2.png",
+        "iconPath": "images/监测1.png",
+        "pagePath": "pages/mon/mon",
+        "text": "监测"
+      }
+    ]
+  }
+}

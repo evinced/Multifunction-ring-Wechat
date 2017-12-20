@@ -1,0 +1,26 @@
+<!--start.wxml-->
+
+<div>
+  <image class="logo2" src="http://5b0988e595225.cdn.sohucs.com/images/20171218/3b37de508e554705b7a8579784f1f5a8.jpeg" mode="scaleToFill" ></image>
+
+  <image class="logo" src="../../images/4d270057b2fc0606e76b35861c8e9f87.png " mode="aspectFit">
+  </image>
+
+<radio-group class="radio-group" bindchange="radioChange">
+  <label style="display: flex"  wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+
+
+<input id="input" placeholder="输入温度阈值" 
+placeholder-style="font-size:15px; color:#66FF00;" 
+style="font-weight:bolder; font-size:15px; color:#000000; padding-left: 30rpx"
+  bindinput="change"/>
+
+<text id="text">当目前温度异常时将弹窗报警。单位：℃</text>
+<button id="btn3" style="opacity: {{opacity}};font-weight:599" 
+disabled="{{disabled}}" bindtap="send">核对数据</button>
+
+
+<button id="tmp" bindtap='showtmp'  style="font-weight:599" >显示温度</button></div>

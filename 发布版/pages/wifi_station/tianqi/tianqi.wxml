@@ -1,0 +1,9 @@
+  <image class="logo" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513788220548&di=1e36207ebbbfd11f2fd419f392f110ae&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F574e9258d109b3debf1ca951c7bf6c81800a4c63.jpg" mode="scaleToFill" >
+
+  </image>
+<view   id="chart1"  class = "canvas"  >
+<canvas class = "canvas" 
+canvas-id="humidity"></canvas></view>
+<view   id="chart3"   class = "canvas" >
+<canvas class = "canvas" 
+canvas-id="tempe"></canvas></view>
